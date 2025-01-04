@@ -1,15 +1,4 @@
-The core pack mod for the Worldshaper modpack
-
-Currently implements:
-	Custom portals with create train support
-Planned:
-	custom multiblocks for the packs progression, 
-	likely a replacement for GCyMs.
-	custom bedrock miners if gtm doesn't fix them.
-	potentially a cross dimension item transportation method using gt multiblocks if needed and doable
-
-
-https://github.com/Deepacat/Worldshaper
+adds ad astra layers to gt for modpack use with kubejs
 
 Based on 
 # GregTech Addon Template
