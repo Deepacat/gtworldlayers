@@ -1,7 +1,7 @@
 adds ad astra layers to gt for modpack use with kubejs
 feel free to PR layers for other mods dimensions if another mod with a race condition is found
 
-usage:
+Script with usage example:
 ```js
 event.add('kubejs:moon/dilithium', vein => {
       vein.weight(120)
@@ -21,12 +21,8 @@ event.add('kubejs:moon/dilithium', vein => {
       )
 })
 ```
-layers:
-"ad_astra_moon"
-"ad_astra_mars"
-"ad_astra_mercury"
-"ad_astra_venus"
-"ad_astra_glacio"
+layer ID's:
+"ad_astra_moon", "ad_astra_mars", "ad_astra_mercury", "ad_astra_venus", "ad_astra_glacio"
 
 
 Based on 
