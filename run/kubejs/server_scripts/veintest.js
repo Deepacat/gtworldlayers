@@ -19,7 +19,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(100)
         vein.density(1)
         vein.discardChanceOnAirExposure(1)
-        vein.layer("moon")
+        vein.layer("ad_astra_moon")
         vein.dimensions("ad_astra:moon")
         vein.heightRangeUniform(-40, 80)
         vein.layeredVeinGenerator(generator => generator
