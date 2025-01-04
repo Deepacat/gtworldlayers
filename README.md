@@ -1,4 +1,33 @@
 adds ad astra layers to gt for modpack use with kubejs
+feel free to PR layers for other mods dimensions if another mod with a race condition is found
+
+usage:
+```js
+event.add('kubejs:moon/dilithium', vein => {
+      vein.weight(120)
+      vein.clusterSize(100)
+      vein.density(0.5)
+      vein.discardChanceOnAirExposure(1)
+
+      vein.layer("ad_astra_moon")
+
+      vein.dimensions("ad_astra:moon")
+      vein.heightRangeUniform(-40, 80)
+      vein.layeredVeinGenerator(generator => generator
+          .buildLayerPattern(pattern => pattern
+              .layer(l => l.weight(35).mat(GTMaterials.Diamond).size(2, 4))
+              .layer(l => l.weight(35).mat(GTMaterials.get('dilithium')).size(1, 4))
+          )
+      )
+})
+```
+layers:
+"ad_astra_moon"
+"ad_astra_mars"
+"ad_astra_mercury"
+"ad_astra_venus"
+"ad_astra_glacio"
+
 
 Based on 
 # GregTech Addon Template
