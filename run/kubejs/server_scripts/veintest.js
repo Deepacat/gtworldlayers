@@ -4,8 +4,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(100)
         vein.density(1)
         vein.discardChanceOnAirExposure(1)
-        vein.layer("owstones")
-        vein.dimensions("minecraft:overworld", "worldshaper:wsoverworld")
+        vein.layer("stone")
+        vein.dimensions("minecraft:overworld")
         vein.heightRangeUniform(10, 30)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
