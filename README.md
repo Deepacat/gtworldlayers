@@ -8,7 +8,7 @@ event.add('kubejs:moon/dilithium', vein => {
       vein.clusterSize(100)
       vein.density(0.5)
       vein.discardChanceOnAirExposure(1)
-
+      // using layer from the mod
       vein.layer("ad_astra_moon")
 
       vein.dimensions("ad_astra:moon")
