@@ -1,6 +1,8 @@
-This mod adds world layers for ad astra to make ores with GregTech, 
-trying to do this with KubeJS can cause an issue where Ad-Astra loads before gregtech causing ore issues
-feel free to PR layers for other mods dimensions if another mod with a race condition is found
+This mod adds world layers for ad astra to make ores with GregTech,
+
+trying to do this with KubeJS can cause an issue where Ad-Astra loads before gregtech causing ore issues.
+
+Feel free to PR layers for other mods dimensions if another mod with a race condition is found
 
 Script with usage example:
 ```js
